@@ -1,4 +1,4 @@
- ![AWS Cloud Drops Builders Edition - Brasil logo](logo.png)
+ ![AWS Cloud Drops Builders Edition - Brasil logo](logo.jpeg)
 
 [🏠 Página principal](https://www.youtube.com/watch?v=Ng_8PlvzA3Y&list=PLQHh55hXC4yrlnKxKDsLPFl5O6sTfXWHu) | [▶️ YouTube](https://www.youtube.com/@AmazonWebServicesLatinAmerica) 
 

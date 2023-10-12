@@ -1,6 +1,6 @@
 # Episódio 1 - Conheça os Large Language Models (LLMs) e o ciclo de vida de um projeto de IA generativa
 
-[![YouTube video thumbnail](./thumb.png)](https://youtu.be/DwTV5uNENqo?list=PLQHh55hXC4yrsSptdH0mh0QyHWiI4waUV&t=313)
+[![YouTube video thumbnail](./thumb.jpeg)](https://youtu.be/DwTV5uNENqo?list=PLQHh55hXC4yrsSptdH0mh0QyHWiI4waUV&t=313)
 **[&#x25b6; Assista agora no Youtube!](https://youtu.be/DwTV5uNENqo?list=PLQHh55hXC4yrsSptdH0mh0QyHWiI4waUV&t=313)**
 
 Este foi o primeiro episódio do programa e nós estávamos muito animados (e um tanto nervosos também). 

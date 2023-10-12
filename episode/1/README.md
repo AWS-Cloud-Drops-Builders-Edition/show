@@ -1,6 +1,6 @@
 # Episódio 2 - Como integrar modelos fundacionais ao seu código com Amazon Bedrock
 
-[![YouTube video thumbnail](./thumb.png)](https://youtu.be/Ng_8PlvzA3Y?t=354)
+[![YouTube video thumbnail](./thumb.jpeg)](https://youtu.be/Ng_8PlvzA3Y?t=354)
 **[&#x25b6; Assista agora no Youtube!](https://youtu.be/Ng_8PlvzA3Y?t=354)**
 
 Neste episódio falamos como um prompt é processado, quando o Palla mostrou sua total falta de capacidade em desenhar na sessão de quadro branco virtual. Depois, focamos 100% na prática com o [Amazon Bedrock](https://aws.amazon.com/bedrock/), mostrando a experiência no console da AWS E como realizar chamadas ao serviço para integrar IA generativa nas aplicações via código.   
@@ -27,7 +27,7 @@ Palavras-chave: IA Generativa, Engenharia de prompt, Amazon Bedrock, boto3, pyth
 
 * Nós tinhamos um diagrama bem interessante com as etapas do ciclo de vida de um projeto com IA Generativa, mas o contraste entre as letras e o fundo era era o edequado. Esta é a figura corrigida. 
 
-![YouTube video thumbnail](./Ciclo%20de%20vida%20com%20IA%20Generativa.png)
+![YouTube video thumbnail](./Ciclo%20de%20vida%20com%20IA%20Generativa.jpeg)
 
 ## Onde aprender mais
 
