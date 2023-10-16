@@ -3,11 +3,9 @@
 [![YouTube video thumbnail](./thumb.jpeg)](https://youtu.be/DwTV5uNENqo?list=PLQHh55hXC4yrsSptdH0mh0QyHWiI4waUV&t=313)
 **[&#x25b6; Assista agora no Youtube!](https://youtu.be/DwTV5uNENqo?list=PLQHh55hXC4yrsSptdH0mh0QyHWiI4waUV&t=313)**
 
-Este foi o primeiro episódio do programa e nós estávamos muito animados (e um tanto nervosos também). 
+Neste episódio você verá as definições de IA Generativa e LLM. Além disso, há exemplos de engenharia de prompt e utilização do Amazon SageMaker JumpStart e playgrounds de modelos generativos de texto. 
 
-Foram meses de preparação para o programa, aprovações, conversas entre múltiplos times e foi uma boa introdução para o show. 
-
-Se você gostou do conteúdo e que ser notificado sobre próximos episódios, [por favor, assine o canal](https://www.youtube.com/@AmazonWebServicesLatinAmerica). 😊
+Se você gostou do conteúdo e que ser notificado sobre próximos episódios, [por favor, assine o canal](https://www.youtube.com/@AmazonWebServicesLatinAmerica).
 
 Palavras-chave: IA Generativa, Engenharia de prompt 
 
@@ -25,10 +23,15 @@ Palavras-chave: IA Generativa, Engenharia de prompt
 
 ## 🐛 Bugs em produção
 
-O primeiro minuto foi um tanto atabalhoado por conta do som. Quem viu ao vivo, viu. Quem não viu não vai ver mais, já que editamos o vídeo para remover esta parte. :) 
+O primeiro minuto foi um tanto atabalhoado por conta do som. Quem viu ao vivo, viu. Quem não viu não vai ver mais, já que editamos o vídeo para remover esta parte. 🙂
 
 ## 🫰 Dívida técnica
 
 Esquecemos de citar o ciclo de vida de um projeto com IA Generativa. Pagamos a dívida no segundo episódio e vamos voltar ao tema, já que quase todos os outros episódios irão flutuar em torno do mesmo ciclo.  
 
 * [Ciclo de vida de uma aplicação com IA Generativa](https://youtu.be/Ng_8PlvzA3Y?t=2942)
+
+## Onde aprender mais
+
+[![Generative AI with LLMs](../../images/Generative%20AI%20with%20LLMs.jpeg)](https://www.deeplearning.ai/courses/generative-ai-with-llms/)
+**[DeepLearning.AI](https://www.deeplearning.ai/courses/generative-ai-with-llms/)**
