@@ -19,7 +19,7 @@ Palavras-chave: IA Generativa, Engenharia de prompt
 * [O que é IA Generativa? - Português](https://www.youtube.com/watch?v=4tqGA3-JXUc)
 * [Amazon SageMaker JumpStart](https://youtu.be/DwTV5uNENqo?t=2287)
 * [Engenharia de prompt](https://youtu.be/DwTV5uNENqo?t=2460)
-* [Mais engenharia de prompt, zero shot, one shot, few shots](https://youtu.be/DwTV5uNENqo?t=2908)
+* [Mais engenharia de prompt, Zero-Shot, One-Shot, Few-Shot](https://youtu.be/DwTV5uNENqo?t=2908)
 
 ## 🐛 Bugs em produção
 
