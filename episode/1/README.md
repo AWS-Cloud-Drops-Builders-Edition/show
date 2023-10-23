@@ -27,7 +27,7 @@ Palavras-chave: IA Generativa, Engenharia de prompt, Amazon Bedrock, boto3, pyth
 
 * Nós tinhamos um diagrama bem interessante com as etapas do ciclo de vida de um projeto com IA Generativa, mas o contraste entre as letras e o fundo não era o edequado. Esta é a figura corrigida. 
 
-![YouTube video thumbnail](./Ciclo%20de%20vida%20com%20IA%20Generativa.jpeg)
+![Ciclo de vida de uma aplicação com IA Generativa](./Ciclo%20de%20vida%20com%20IA%20Generativa.jpeg)
 
 ## 🫰 Dívida técnica
 
