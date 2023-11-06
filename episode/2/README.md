@@ -23,8 +23,8 @@ Nenhuma dívida técnica foi adquirida neste episódio.
 
 ## Onde aprender mais
 
+* [Repositório no Github com a aplicação de exemplo (github)](https://bit.ly/cdbe-s01e03-code)
 * [Página do serviço](https://bit.ly/amazon-code-whisperer)
-* [Repositório no Github com a aplicação de exemplo](https://bit.ly/cdbe-s01e03-code)
 
 [![Generative AI with LLMs](../../images/Generative%20AI%20with%20LLMs.jpeg)](https://www.deeplearning.ai/courses/generative-ai-with-llms/)
 **[DeepLearning.AI](https://www.deeplearning.ai/courses/generative-ai-with-llms/)**

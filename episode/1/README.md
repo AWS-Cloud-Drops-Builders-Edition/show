@@ -35,6 +35,7 @@ Nenhuma dívida técnica foi adquirida neste episódio.
 
 ## Onde aprender mais
 
+* [Código utilizado neste episódio (github)](https://github.com/AWS-Cloud-Drops-Builders-Edition/s01e02)
 * [Repositório no Github com exemplos do Amazon Bedrock](https://bit.ly/amazon-bedrock-samples)
 * [HEML](https://crfm.stanford.edu/helm/latest/)
 * [Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard)
