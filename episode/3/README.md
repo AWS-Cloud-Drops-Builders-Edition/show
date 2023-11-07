@@ -17,6 +17,7 @@ Nenhuma dívida técnica foi adquirida neste episódio.
 
 ## Onde aprender mais
 
+* [Andy Jassy LinkedIn post - Amazon Ads GenAI capability](https://www.linkedin.com/posts/andy-jassy-8b1615_first-look-at-our-new-amazon-ads-genai-capability-ugcPost-7122968532773998592-WrFq/)
 * [Código utilizado neste episódio (guithub)](https://github.com/AWS-Cloud-Drops-Builders-Edition/s01e04)
 * [Como um prompt é processado (trecho de vídeo)](https://www.youtube.com/watch?v=Ng_8PlvzA3Y&t=528s)
 * [Exemplos de Zero-Shot, One-Shot, Few-Shot (trecho de vídeo)](https://www.youtube.com/watch?v=DwTV5uNENqo&t=326s)
