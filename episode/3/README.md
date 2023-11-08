@@ -9,7 +9,19 @@ Palavras-chave: IA Generativa, Engenharia de prompt, Sumarização de texto
 
 ## O que mencionamos durante o episódio
 
+* [A importância da engenharia de prompt na construção de produtos (Amazon ads)](https://www.youtube.com/live/QkkUcbtzoIg?t=273&si=ch7_UENbOxe-dKu7)
+* [O ciclo de vida de aplicações com IA generativa](https://www.youtube.com/live/QkkUcbtzoIg?t=472&si=Q2S9FMY9Xb60Wrx6)
+* [Prompting e prompt engineering](https://www.youtube.com/live/QkkUcbtzoIg?t=648&si=rlSNDum1mbWOMdtr)
+* [Inferência Zero Shot](https://www.youtube.com/live/QkkUcbtzoIg?t=770&si=9n8g4cPDzC_-ipnj)
+* [Inferência One Shot](https://www.youtube.com/live/QkkUcbtzoIg?t=906&si=M4GFV5l5Zi9rBQC8)
+* [Inferência Few Shot](https://www.youtube.com/live/QkkUcbtzoIg?t=1020&si=XP0931BE9vqH3p04)
+* [In-context learning - Sumário](https://www.youtube.com/live/QkkUcbtzoIg?t=1110&si=ygzr0U4m3-wETmVl)
+* [Parâmetros de inferência (max_new_tokens, top k, top p e temperature)](https://www.youtube.com/live/QkkUcbtzoIg?t=1337&si=hwloUgAGWTs1FJZZ)
+* [Juntando tudo no código](https://www.youtube.com/live/QkkUcbtzoIg?t=2101&si=em9XOlNrFPvA56bh)
+
 ## 🐛 Bugs em produção
+
+Em alguns momentos o microfone do Palla raspou em alguma coisa, mas nada que comprometesse o episódio. Foram momentos bem isolados.  
 
 ## 🫰 Dívida técnica
 
