@@ -12,6 +12,8 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 * [#1: **Como integrar modelos fundacionais ao seu código com Amazon Bedrock**](/episode/1) [[vídeo](https://youtu.be/Ng_8PlvzA3Y?list=PLQHh55hXC4yrsSptdH0mh0QyHWiI4waUV&t=340)]
 * [#2: **Programação em par turbinada por IA: Crie uma aplicação com Amazon CodeWhisperer**](/episode/2) [[vídeo](https://www.youtube.com/watch?v=nMNPN0q8Sfo)]
 * [#3: **Sumarizando textos com IA Generativa e Prompt Engineering**](/episode/3) [[vídeo](https://www.youtube.com/watch?v=QkkUcbtzoIg)]
+* [#4: **Ajustando LLMs com instruction fine-tuning**](/episode/4) [[vídeo](https://www.youtube.com/watch?v=pD7ol5xDGm8)]
+
 
 ### ☕ Canecas utilizadas 
 
@@ -20,3 +22,4 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 * [#0: **Caneca de comemoração de 10 anos do JoinCommunity**](/mug/0/10%20anos%20JoinCommunity.jpeg)
 * [#2: **Caneca do Serverless Days São Paulo 2023**](/mug/2/Serverless%20Days%20São%20Paulo%202023.jpeg)
 * [#3: **Que a força esteja com você (sugestão da audiência)**](/mug/3/may%20the%20force%20be%20with%20you.jpg)
+* [#4: **Copo do DevOps Days Belém 2023**](/mug/4/devops%20days%20belem%202023.jpg)
