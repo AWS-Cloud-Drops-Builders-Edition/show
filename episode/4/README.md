@@ -9,6 +9,16 @@ Palavras-chave: IA Generativa, Fine-tuning, Sumarização de diálogo
 
 ## O que mencionamos durante o episódio
 
+- [PartyRock, criando uma aplicação de IA (e nomeando a dupla Ana & Palla)](https://www.youtube.com/watch?v=pD7ol5xDGm8&t=363s)
+- [Iniciando com fine-tuning](https://www.youtube.com/watch?v=pD7ol5xDGm8&t=950s)
+- [Usando templates para montar prompts de instrução](https://www.youtube.com/watch?v=pD7ol5xDGm8&t=1334s)
+- [O processo de fine-tuning de LLMs00:29:06 Fine-tuning de uma única tarefa](https://www.youtube.com/watch?v=pD7ol5xDGm8&t=1413s)
+- [Esquecimento catastrófico](https://www.youtube.com/watch?v=pD7ol5xDGm8&t=1861s)
+- [Fine-tuning de múltiplas tarefas](https://www.youtube.com/watch?v=pD7ol5xDGm8&t=2020s)
+- [Como são feitos os modelos FLAN (e flan === pudim)](https://www.youtube.com/watch?v=pD7ol5xDGm8&t=2101s)
+- [Melhorando a capacidade de sumarização do FLAN-T5](https://www.youtube.com/watch?v=pD7ol5xDGm8&t=2406s)
+- [Juntando tudo no código](https://www.youtube.com/watch?v=pD7ol5xDGm8&t=2722s)
+
 ## 🐛 Bugs em produção
 
 ## 🫰 Dívida técnica
