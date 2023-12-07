@@ -13,6 +13,7 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 * [#2: **Programação em par turbinada por IA: Crie uma aplicação com Amazon CodeWhisperer**](/episode/2) [[vídeo](https://www.youtube.com/watch?v=nMNPN0q8Sfo)]
 * [#3: **Sumarizando textos com IA Generativa e Prompt Engineering**](/episode/3) [[vídeo](https://www.youtube.com/watch?v=QkkUcbtzoIg)]
 * [#4: **Ajustando LLMs com instruction fine-tuning**](/episode/4) [[vídeo](https://www.youtube.com/watch?v=pD7ol5xDGm8)]
+* [#5: **Ajustando LLMs com Parameter efficient fine-tunning (PEFT)**](/episode/5) [[vídeo](https://www.youtube.com/watch?v=18eWp6ceP4k]
 
 
 ### ☕ Canecas utilizadas 
@@ -23,3 +24,4 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 * [#2: **Caneca do Serverless Days São Paulo 2023**](/mug/2/Serverless%20Days%20São%20Paulo%202023.jpeg)
 * [#3: **Que a força esteja com você (sugestão da audiência)**](/mug/3/may%20the%20force%20be%20with%20you.jpg)
 * [#4: **Copo do DevOps Days Belém 2023**](/mug/4/devops%20days%20belem%202023.jpg)
+* [#5: **Smile**](/mug/5/smile.jpg)
