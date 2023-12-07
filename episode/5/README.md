@@ -15,6 +15,7 @@ Neste episódio, veremos alternativas ao ajuste fino completo, utilizando o Para
 
 ## Onde aprender mais
 
+* [Código utilizado neste episódio (guithub)](https://github.com/AWS-Cloud-Drops-Builders-Edition/s01e06)
 * [PartyRocket - build web apps with gen AI](https://partyrock.aws/u/mza/pDK3iF1kb/PartyRocket-build-web-apps-with-gen-AI/snapshot/xKLiQfwHd)
 * [AWS re:Invent 2023 - Keynote with Dr. Werner Vogels](https://www.youtube.com/watch?v=UTRBVPvzt9w)
 * [HELM is a living benchmark to evaluate Language Models more transparently](https://crfm.stanford.edu/helm/latest/)
