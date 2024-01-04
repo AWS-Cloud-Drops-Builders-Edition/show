@@ -25,3 +25,4 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 * [#3: **Que a força esteja com você (sugestão da audiência)**](/mug/3/may%20the%20force%20be%20with%20you.jpg)
 * [#4: **Copo do DevOps Days Belém 2023**](/mug/4/devops%20days%20belem%202023.jpg)
 * [#5: **Smile**](/mug/5/smile.jpg)
+* [#6: **Hamilton**](/mug/6/hamilton.jpg)
