@@ -14,7 +14,7 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 * [#3: **Sumarizando textos com IA Generativa e Prompt Engineering**](/episode/3) [[vídeo](https://www.youtube.com/watch?v=QkkUcbtzoIg)]
 * [#4: **Ajustando LLMs com instruction fine-tuning**](/episode/4) [[vídeo](https://www.youtube.com/watch?v=pD7ol5xDGm8)]
 * [#5: **Ajustando LLMs com Parameter efficient fine-tunning (PEFT)**](/episode/5) [[vídeo](https://www.youtube.com/watch?v=18eWp6ceP4k)]
-
+* [#6: **Usando RAG para melhorar respostas utilizando Knowledge Bases for Amazon Bedrock**](/episode/6) [[vídeo](https://www.youtube.com/watch?v=7lF8_9bG15Q)]
 
 ### ☕ Canecas utilizadas 
 
