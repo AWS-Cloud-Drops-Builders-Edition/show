@@ -15,6 +15,7 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 * [#4: **Ajustando LLMs com instruction fine-tuning**](/episode/4) [[vídeo](https://www.youtube.com/watch?v=pD7ol5xDGm8)]
 * [#5: **Ajustando LLMs com Parameter efficient fine-tunning (PEFT)**](/episode/5) [[vídeo](https://www.youtube.com/watch?v=18eWp6ceP4k)]
 * [#6: **Usando RAG para melhorar respostas utilizando Knowledge Bases for Amazon Bedrock**](/episode/6) [[vídeo](https://www.youtube.com/watch?v=7lF8_9bG15Q)]
+* [#7: **Knowledge Bases for Amazon Bedrock NA PRÁTICA**](/episode/7) [[vídeo](https://www.youtube.com/watch?v=tS8GfsnMSbI)]
 
 ### ☕ Canecas utilizadas 
 
@@ -26,3 +27,4 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 * [#4: **Copo do DevOps Days Belém 2023**](/mug/4/devops%20days%20belem%202023.jpg)
 * [#5: **Smile**](/mug/5/smile.jpg)
 * [#6: **Hamilton**](/mug/6/hamilton.jpg)
+* [#7: **Hamilton (porque o Palla esqueceu de trazer o copo no último episódio 😂)**](/mug/6/hamilton.jpg)
