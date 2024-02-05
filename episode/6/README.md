@@ -7,6 +7,20 @@ Nos últimos dois episódios falamos de fine-tuning, como forma de fazer suas ap
 
 ## O que mencionamos durante o episódio
 
+* 00:00 Abertura
+* 09:18 Por que customizar modelos fundacionais?
+* 16:35 Abordagens comuns para customização de modelos fundacionais
+* 25:04 Customizar ou Enriquecer
+* 35:16 O que é RAG (Retrieval Augmented Generation)?
+* 39:18 Casos de uso para utilização de RAG
+* 43:57 O que são embeddings?
+* 45:10 Por que embeddings é importantes para RAG?
+* 46:41 RAG em ação
+* 49:00 Desafios para implementar RAG
+* 50:10 Knowledge Bases for Amazon Bedrock
+* 51:56 Juntando tudo na demo
+* 01:00:01 Finalização
+
 ## 🐛 Bugs em produção
 
 ## 🫰 Dívida técnica

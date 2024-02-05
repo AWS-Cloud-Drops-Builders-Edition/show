@@ -9,6 +9,25 @@ Neste episódio, veremos alternativas ao ajuste fino completo, utilizando o Para
 
 ## O que mencionamos durante o episódio
 
+* 00:00:00 Introdução
+* 00:01:20 Amazon SageMaker Studio Lab
+* 00:04:56 PartyRocket, um aplicativo feito com IA generativa no PartyRock
+* 00:11:31 Recapitulando o final do episódio 5
+* 00:13:45 O ciclo de vida de um projeto com IA generativa
+* 00:14:21 Os desafios para avaliar LLMs
+* 00:19:00 Métricas: ROUGE e BLEU
+* 00:20:51 Métricas: Terminologia
+* 00:21:51 Métricas: ROUGE-1
+* 00:24:48 Métricas: ROUGE-2
+* 00:26:24 Métricas: ROUGE-L
+* 00:29:50 Os desafios do full fine-tuning
+* 00:31:21 Parameter Efficient Fine-Tuning (PEFT)
+* 00:36:49 Comparando as abordagens de fine-tuning
+* 00:38:43 PEFT trade-offs
+* 00:39:48 Métodos PEFT
+* 00:45:25 Juntando tudo no código
+* 01:06:09 Finalização
+
 ## 🐛 Bugs em produção
 
 ## 🫰 Dívida técnica

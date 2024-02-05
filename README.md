@@ -16,6 +16,8 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 * [#5: **Ajustando LLMs com Parameter efficient fine-tunning (PEFT)**](/episode/5) [[vídeo](https://www.youtube.com/watch?v=18eWp6ceP4k)]
 * [#6: **Usando RAG para melhorar respostas utilizando Knowledge Bases for Amazon Bedrock**](/episode/6) [[vídeo](https://www.youtube.com/watch?v=7lF8_9bG15Q)]
 * [#7: **Knowledge Bases for Amazon Bedrock NA PRÁTICA**](/episode/7) [[vídeo](https://www.youtube.com/watch?v=tS8GfsnMSbI)]
+* [#8: **Projetos de IA Generativa NA PRÁTICA**](/episode/8) [[vídeo](https://www.youtube.com/watch?v=6FC9iFdLoZQ)]
+
 
 ### ☕ Canecas utilizadas 
 
@@ -28,3 +30,4 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 * [#5: **Smile**](/mug/5/smile.jpg)
 * [#6: **Hamilton**](/mug/6/hamilton.jpg)
 * [#7: **Hamilton (porque o Palla esqueceu de trazer o copo no último episódio 😂)**](/mug/6/hamilton.jpg)
+* [#8: **Garrafa Work Hard, Have Fun, Make History**](/mug/8/work%20hard%20have%20fun%20make%20history.jpeg) | [**Caneca do Serverless Days São Paulo 2023**](/mug/2/Serverless%20Days%20São%20Paulo%202023.jpeg)

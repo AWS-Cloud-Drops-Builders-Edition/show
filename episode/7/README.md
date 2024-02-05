@@ -9,6 +9,30 @@ Bóra buildar!
 
 ## O que mencionamos durante o episódio
 
+* 00:00:00 Abertura
+* 00:07:33 Notas dos episódios
+* 00:08:38 Abrindo o Amazon SageMaker Studio
+* 00:13:03 Carregando os arquivos
+* 00:13:33 Configurando o ambiente do notebook
+* 00:17:23 Explicando o exemplo de ponta a ponta
+* 00:21:33 Instalando as dependências, importando os módulos e declarando as variáveis
+* 00:23:23 Criando o Bucket no Amazon S3
+* 00:25:11 Fazendo a pergunta antes de aplicar RAG
+* 00:27:11 Criando o repositório de vetores no OpenSearch Serverless e a Execution Role do Amazon Bedrock
+* 00:29:33 Criando o índice de vetor no OpenSearch Serverless
+* 00:33:31 Inspecionando a Role criada no IAM
+* 00:35:53 Olhando o Amazon OpenSearch Service no console
+* 00:39:41 Executando a criação do índice (finalmente :D) 
+* 00:40:15 Fazendo o download dos dados
+* 00:42:06 Configurando e criando a base de conhecimento no Knowledge Bases for Amazon Bedrock
+* 00:44:25 Criando a origem de dados (Data Source)
+* 00:45:19 Iniciando a ingestão dos dados (S3 - OpenSearch vector store)
+* 00:46:19 Perguntando para o modelo aplicando RAG
+* 00:52:19 Imprimindo as referências 
+* 00:53:07 Visualizando os chunks recuperados e suas URIs
+* 00:55:13 Limpando a casa e desligando a instância do notebook
+* 01:00:20 Finalização 
+
 ## 🐛 Bugs em produção
 
 ## 🫰 Dívida técnica
