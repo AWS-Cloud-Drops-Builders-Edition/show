@@ -9,6 +9,17 @@ Bóra desenhar, para depois Buildar!
 
 ## O que mencionamos durante o episódio
 
+- 00:00:00 Introdução e apresentações
+- 00:02:58 O (famoso) Ciclo de vida de um projeto com IA Generativa
+- 00:05:18 Desenho de uma solução para corrigir redações do ENEM
+- 00:20:39 Uma solução Serverless
+- 00:28:18 Agradecendo o Diego, fundador do AWS User Group Blumenau, pela incrível garrafa usada no episódio 
+- 00:28:55 Juntando tudo na demonstração
+- 00:35:56 Juntando tudo no código
+- 00:41:08 Evoluindo a solução
+- 00:46:26 Demo: Usando as questões do ENEM como base para RAG (Retrieval-augmented generation)
+- 00:57:41 Finalização
+
 ## 🐛 Bugs em produção
 
 ## 🫰 Dívida técnica
