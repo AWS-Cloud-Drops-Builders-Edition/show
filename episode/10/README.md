@@ -9,6 +9,19 @@ Bóra Buildar!
 
 ## O que mencionamos durante o episódio
 
+00:00:00 Introdução
+00:04:27 Motivações para o episódio EXTRA
+00:04:59 A Stack de IA Generativa da AWS
+00:07:46 Por que customizar?
+00:09:59 Customizar vs enriquecer o prompt (augment)
+00:13:42 Desafios das automações de fluxo
+00:15:22 Agents for Amazon Bedrock
+00:17:15 Benefícios do Agents for Amazon Bedrock
+00:19:02 Resolvendo tarefas com Agents for Amazon Bedrock
+00:19:55 Noções básicas sobre agentes
+00:30:25 Juntando tudo nas demos
+00:01:36 Finalização
+
 ## 🐛 Bugs em produção
 
 ## 🫰 Dívida técnica
