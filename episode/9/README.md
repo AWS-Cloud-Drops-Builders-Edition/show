@@ -9,6 +9,18 @@ Bóra Buildar!
 
 ## O que mencionamos durante o episódio
 
+00:00:00 Introdução
+00:01:27 O museu da história da tecnologia grega e um robô mecânico para servir vinho 250 AC
+00:07:02 O estado do Java na AWS
+00:15:41 A forma como aprendemos está mudando 
+00:24:21 Amazon Q na IDE
+00:31:08 Amazon CodeWhisperer no terminal
+00:33:27 Exemplos de utilização do Amazon Q
+00:33:35 Amazon Q Code Transformation
+00:42:22 Java Foundation Model (FM) Playground 
+00:46:00 Quarkus Roblox Workshop
+00:54:07 Finalização
+
 ## 🐛 Bugs em produção
 
 ## 🫰 Dívida técnica
