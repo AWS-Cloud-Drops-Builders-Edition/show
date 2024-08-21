@@ -1,4 +1,4 @@
-# Episódio 01 Temporada 02 - [NA PRÁTICA] Construindo uma aplicação Serverless com IA generativa DO ZERO - Parte 1
+# Episódio 01, Temporada 02 - [NA PRÁTICA] Construindo uma aplicação Serverless com IA generativa DO ZERO - Parte 1
 
 [![YouTube video thumbnail](./thumb.jpeg)](https://bit.ly/cdbe-s02e02)
 **[&#x25b6; Assista agora no Youtube!](https://bit.ly/cdbe-s02e02)**
@@ -21,7 +21,6 @@ Bóra Buildar!
 
 #### O que pedimos?
 
-```
 We will create an application from scratch in a program on the AWS LATAM YouTube channel. This application will consist of a web interface (frontend) where users can enter data, and a backend.
 
 The main functionality is that users will describe how they're feeling, and the application will generate a recipe for a non-alcoholic drink using generative AI.
@@ -37,11 +36,9 @@ We will use JavaScript for the frontend and Python for the backend.
 Users will receive the recipe and recipe image via two QR codes that will appear at the end of the recipe generation process.
 
 Bartenders will receive the recipes via an email determined by their team. We will use SendGrid to send the emails.
-```
 
 #### Resposta do Claude 3 Sonnet (via PartyRock)
 
-```
 Hospede o código front-end em um bucket S3 e use o AWS Amplify para implantação e hospedagem estática.
 Utilize o AWS Amplify para configurar o serviço de hospedagem web e CDN (CloudFront).
 
@@ -74,11 +71,9 @@ Habilite o AWS X-Ray para rastreamento e análise de desempenho.
 Envie logs para o Amazon CloudWatch Logs ou Amazon S3.
 
 Essa é uma arquitetura de alto nível que atende aos requisitos fornecidos. Nas próximas etapas, fornecerei instruções detalhadas sobre como configurar e provisionar cada componente mencionado acima.
-```
 
 #### Resposta do Amazon Q Developer
 
-```
 To build the application you described, we can leverage various AWS services and technologies. Here's a high-level architecture and the services we could use:
 
 Frontend:
@@ -128,17 +123,13 @@ A separate Lambda function sends the recipe to the appropriate bartender team vi
 This architecture allows for scalability, separation of concerns, and easy integration with AWS services. You can use AWS CodePipeline for continuous deployment and AWS CloudFormation/CDK for infrastructure as code.
 
 Note: For the actual implementation, you'll need to provision and configure these services, write the application code, and integrate the generative AI models. Additionally, you'll need to consider security best practices, such as using AWS Cognito for user authentication and AWS KMS for data encryption.
-```
 
 #### O que pedimos?
 
-```
 For IaC, between AWS CDK and AWS SAM, which one is the best option for us?
-```
 
 #### Resposta do Amazon Q Developer
 
-```
 When choosing between AWS CDK and AWS SAM for infrastructure as code (IaC) in your project, consider the following factors:
 
 AWS CDK (Cloud Development Kit):
@@ -180,17 +171,13 @@ Scalability and Future Growth : While your initial requirements may be focused o
 However, if your team has significant experience with AWS CloudFormation templates and prefers a more declarative approach, AWS SAM could be a viable option, especially if your application remains focused on serverless architectures.
 
 Ultimately, the choice between AWS CDK and AWS SAM should consider your team's skills, the complexity of your infrastructure, and the long-term scalability and maintainability requirements of your application.
-```
 
 #### O que pedimos?
 
-```
 Regarding the frontend, if you're unsure about which technology to use, our team is proficient in JavaScript. What other options would you like us to consider?
-```
 
 #### Resposta do Amazon Q Developer
 
-```
 Since your team is proficient in JavaScript, it would be a natural choice for the frontend development of this project. JavaScript is a widely adopted language for building modern web applications and has a vast ecosystem of libraries and frameworks to choose from.
 
 However, it's always good to explore alternative options and consider their potential benefits and trade-offs. Here are some alternatives to JavaScript that you could consider for the frontend:
@@ -210,11 +197,8 @@ WebAssembly : While not a direct alternative to JavaScript, WebAssembly is a low
 When considering these alternatives, you should evaluate factors such as your team's familiarity with the technology, the learning curve, performance requirements, community support, and the availability of third-party libraries and tools. Additionally, consider the long-term maintainability and scalability of the chosen technology, as well as its compatibility with the backend and other components of your application.
 
 Ultimately, if your team is already proficient in JavaScript and comfortable with its ecosystem, sticking with JavaScript and a popular framework like React or Vue.js could be a pragmatic choice for this project.
-```
+
 ## 🫰 Dívida técnica
 
 - Criar o projeto básico do frontend
 - Criar o desenho da arquitetura conforme susgestões do Amazon Q Developer
-
-
-
