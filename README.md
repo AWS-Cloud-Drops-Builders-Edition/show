@@ -6,7 +6,11 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 
 ### 🎙️ Lista de episódios 
 
-#### Primeira temporada - 2023-2024
+#### Segunda temporada - 2024/2025
+
+* [#0: **[NA PRÁTICA] Construindo uma aplicação Serverless com IA generativa DO ZERO - Parte 1**](/episode/11) [[vídeo](https://bit.ly/cdbe-s02e02)]
+
+#### Primeira temporada - 2023/2024
 
 * [#0: **Conheça os Large Language Models (LLMs) e o ciclo de vida de um projeto de IA generativa**](/episode/0) [[vídeo](https://youtu.be/DwTV5uNENqo?list=PLQHh55hXC4yrsSptdH0mh0QyHWiI4waUV&t=313)]
 * [#1: **Como integrar modelos fundacionais ao seu código com Amazon Bedrock**](/episode/1) [[vídeo](https://youtu.be/Ng_8PlvzA3Y?list=PLQHh55hXC4yrsSptdH0mh0QyHWiI4waUV&t=340)]
@@ -22,7 +26,9 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 
 ### ☕ Canecas utilizadas 
 
-#### Primeira temporada - 2023-2024
+#### Segunda temporada - 2024/2025
+
+#### Primeira temporada - 2023/2024
 
 * [#0: **Caneca de comemoração de 10 anos do JoinCommunity**](/mug/0/10%20anos%20JoinCommunity.jpeg)
 * [#2: **Caneca do Serverless Days São Paulo 2023**](/mug/2/Serverless%20Days%20São%20Paulo%202023.jpeg)
