@@ -146,3 +146,7 @@ Utilize o AWS Amplify para configurar o serviço de hospedagem web e CDN (CloudF
 
 - Criar o projeto básico do frontend
 - Criar o desenho da arquitetura conforme susgestões do Amazon Q Developer
+
+## Onde aprender mais
+
+[AWSome Generative Drink App (Github)](https://bit.ly/awsome-generative-drink-app)
