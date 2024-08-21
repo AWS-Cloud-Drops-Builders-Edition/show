@@ -53,9 +53,15 @@ Utilize o AWS Amplify para configurar o serviço de hospedagem web e CDN (CloudF
 #### Resposta do Amazon Q Developer
 
 >- To build the application you described, we can leverage various AWS services and technologies. Here's a high-level architecture and the services we could use:
+>
+> Frontend: 
+>
 >- AWS Amplify or Amazon S3 to host the static website
 >- AWS AppSync or Amazon API Gateway to expose a GraphQL or REST API for the backend
 >- React or Angular for building the user interface
+>
+> Backend:
+>
 >- AWS Lambda to run serverless Python functions
 >- Amazon DynamoDB or Amazon RDS to store user preferences and choices
 >- Amazon SageMaker or Amazon Bedrock to integrate with generative AI models for recipe and image generation
@@ -64,6 +70,9 @@ Utilize o AWS Amplify para configurar o serviço de hospedagem web e CDN (CloudF
 >- Amazon CloudWatch for monitoring and logging
 >- AWS CloudFormation or AWS CDK for infrastructure as code
 >- AWS IAM for access management and security
+>
+> Workflow:
+>
 >- User enters their preferences and dietary restrictions on the frontend.
 >- Frontend sends a request to the backend API (API Gateway/AppSync).
 >- API triggers a Lambda function to store user data in DynamoDB and enqueue a recipe request in SNS/SQS.
