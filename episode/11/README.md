@@ -118,7 +118,7 @@ Utilize o AWS Amplify para configurar o serviço de hospedagem web e CDN (CloudF
 
 #### O que pedimos?
 
-> Regarding the frontend, if you're unsure about which technology to use, our team is proficient in JavaScript. What other options would you like us to consider?
+> Regarding the frontend, we are unsure about which technology to use, our team is proficient in JavaScript. What other options would you like us to consider?
 
 #### Resposta do Amazon Q Developer
 
