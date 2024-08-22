@@ -5,7 +5,7 @@
 
 Bem-vindo(a) ao primeiro episódio da segunda temporada do AWS Cloud Drops Builders Edition!
 
-Nesta temporada nós vamos construir uma aplicação Serverless completa com IA generativa DO ZERO! Desde o caso de uso, até a utilização dos dados para tomada de decisão. Vamos explorar temas como utilizar o Amazon Q Developer para escrever código, escrever prompts e fazer chamadas ao Amazon Bedrock, escrever código para definir a Infraestrutura, automatizar testes, como organizar os projetos, definir a arquitetura da solução, dentre outros. 
+Nesta temporada nós vamos construir uma aplicação Serverless completa com IA generativa DO ZERO! Desde o caso de uso, até a utilização dos dados para tomada de decisão. Vamos explorar temas como utilizar o Amazon Q Developer para escrever código, prompts, fazer chamadas ao Amazon Bedrock, definir a Infraestrutura, automatizar testes, organizar projetos, definir a arquitetura da solução, dentre outros. 
 
 Esta é a temporada perfeita para você que está começando com desenvolvimento de software na AWS e se interessa em IA generativa.
 
@@ -32,7 +32,7 @@ Bóra Buildar!
 
 #### Resposta do Claude 3 Sonnet (via PartyRock)
 
-> Hospede o código front-end em um bucket S3 e use o AWS Amplify para implantação e hospedagem estática.
+>- Hospede o código front-end em um bucket S3 e use o AWS Amplify para implantação e hospedagem estática.
 Utilize o AWS Amplify para configurar o serviço de hospedagem web e CDN (CloudFront).
 >- Crie um domínio personalizado (exemplo: drinkgenerator.com) usando o Amazon Route 53. 
 >- Use o AWS Lambda para executar o código Python que gerará as receitas e imagens usando IA generativa.
@@ -52,7 +52,7 @@ Utilize o AWS Amplify para configurar o serviço de hospedagem web e CDN (CloudF
 
 #### Resposta do Amazon Q Developer
 
->- To build the application you described, we can leverage various AWS services and technologies. Here's a high-level architecture and the services we could use:
+> To build the application you described, we can leverage various AWS services and technologies. Here's a high-level architecture and the services we could use:
 >
 > Frontend: 
 >
@@ -108,10 +108,10 @@ Utilize o AWS Amplify para configurar o serviço de hospedagem web e CDN (CloudF
 >- Provides a streamlined workflow for local testing and debugging of serverless applications using the SAM CLI.
 >- May be more limited in terms of advanced infrastructure patterns and code reuse compared to AWS CDK.
 >- Given the requirements of your project, which involves a frontend, backend, and integration with generative AI models, AWS CDK might be a better choice for the following reasons:
->- Programming Language Support : Since you plan to use JavaScript for the frontend and Python for the backend, AWS CDK supports both languages natively, making it easier to define and manage your infrastructure code alongside your application code.
->- Complex Infrastructure Patterns : Your application involves multiple components (API Gateway, Lambda, DynamoDB, SageMaker, etc.) and integrations, which may require more complex infrastructure patterns. AWS CDK provides a higher-level abstraction and better support for composing and reusing infrastructure patterns.
->- Integration with CI/CD : AWS CDK integrates well with CI/CD pipelines, allowing you to test and validate your infrastructure code as part of your development workflow.
->- Scalability and Future Growth : While your initial requirements may be focused on serverless components, AWS CDK provides broader coverage of AWS services, making it easier to scale and extend your infrastructure as your application grows.
+>- Programming Language Support: Since you plan to use JavaScript for the frontend and Python for the backend, AWS CDK supports both languages natively, making it easier to define and manage your infrastructure code alongside your application code.
+>- Complex Infrastructure Patterns: Your application involves multiple components (API Gateway, Lambda, DynamoDB, SageMaker, etc.) and integrations, which may require more complex infrastructure patterns. AWS CDK provides a higher-level abstraction and better support for composing and reusing infrastructure patterns.
+>- Integration with CI/CD: AWS CDK integrates well with CI/CD pipelines, allowing you to test and validate your infrastructure code as part of your development workflow.
+>- Scalability and Future Growth: While your initial requirements may be focused on serverless components, AWS CDK provides broader coverage of AWS services, making it easier to scale and extend your infrastructure as your application grows.
 >- However, if your team has significant experience with AWS CloudFormation templates and prefers a more declarative approach, AWS SAM could be a viable option, especially if your application remains focused on serverless architectures.
 >
 > Ultimately, the choice between AWS CDK and AWS SAM should consider your team's skills, the complexity of your infrastructure, and the long-term scalability and maintainability requirements of your application.
@@ -126,17 +126,17 @@ Utilize o AWS Amplify para configurar o serviço de hospedagem web e CDN (CloudF
 >
 > However, it's always good to explore alternative options and consider their potential benefits and trade-offs. Here are some alternatives to JavaScript that you could consider for the frontend:
 >
->- TypeScript : TypeScript is a superset of JavaScript that adds optional static typing, which can help catch errors during development and improve code maintainability. It's particularly useful for larger projects and teams, as it provides better tooling support and code documentation. TypeScript is a popular choice for building complex web applications and is well-supported by many JavaScript frameworks and libraries.
+>- TypeScript: TypeScript is a superset of JavaScript that adds optional static typing, which can help catch errors during development and improve code maintainability. It's particularly useful for larger projects and teams, as it provides better tooling support and code documentation. TypeScript is a popular choice for building complex web applications and is well-supported by many JavaScript frameworks and libraries.
 >
->- React : React is a JavaScript library for building user interfaces, developed and maintained by Facebook. It uses a component-based architecture and a virtual DOM for efficient rendering. React is widely adopted and has a large community, making it a solid choice for building the frontend of your application.
+>- React: React is a JavaScript library for building user interfaces, developed and maintained by Facebook. It uses a component-based architecture and a virtual DOM for efficient rendering. React is widely adopted and has a large community, making it a solid choice for building the frontend of your application.
 >
->- Angular : Angular is a comprehensive framework for building web applications, developed and maintained by Google. It follows a more opinionated approach and provides a structured way of building applications. Angular has a steeper learning curve compared to React but offers a more comprehensive set of features out of the box.
+>- Angular: Angular is a comprehensive framework for building web applications, developed and maintained by Google. It follows a more opinionated approach and provides a structured way of building applications. Angular has a steeper learning curve compared to React but offers a more comprehensive set of features out of the box.
 >
->- Vue.js : Vue.js is a progressive JavaScript framework that is designed to be incrementally adoptable. It combines the best features of Angular and React, making it a lightweight and flexible option for building user interfaces. Vue.js has a growing community and is often praised for its ease of learning and integration with other libraries.
+>- Vue.js: Vue.js is a progressive JavaScript framework that is designed to be incrementally adoptable. It combines the best features of Angular and React, making it a lightweight and flexible option for building user interfaces. Vue.js has a growing community and is often praised for its ease of learning and integration with other libraries.
 >
->- Svelte : Svelte is a relatively new component framework that takes a different approach to building user interfaces. Instead of using a virtual DOM, it compiles components into highly optimized JavaScript code during the build process. This can result in smaller bundle sizes and improved performance, especially for larger applications.
+>- Svelte: Svelte is a relatively new component framework that takes a different approach to building user interfaces. Instead of using a virtual DOM, it compiles components into highly optimized JavaScript code during the build process. This can result in smaller bundle sizes and improved performance, especially for larger applications.
 >
->- WebAssembly : While not a direct alternative to JavaScript, WebAssembly is a low-level bytecode format that can be used to run code written in languages like C, C++, and Rust in web browsers. It can potentially offer performance benefits for certain types of computationally intensive tasks, but it may not be suitable for building the entire frontend of your application.
+>- WebAssembly: While not a direct alternative to JavaScript, WebAssembly is a low-level bytecode format that can be used to run code written in languages like C, C++, and Rust in web browsers. It can potentially offer performance benefits for certain types of computationally intensive tasks, but it may not be suitable for building the entire frontend of your application.
 >
 > When considering these alternatives, you should evaluate factors such as your team's familiarity with the technology, the learning curve, performance requirements, community support, and the availability of third-party libraries and tools. Additionally, consider the long-term maintainability and scalability of the chosen technology, as well as its compatibility with the backend and other components of your application.
 >
