@@ -20,5 +20,5 @@ Bóra Buildar!
 
 ## Onde aprender mais
 
-[AWSome Generative Drink App (Github)](https://bit.ly/awsome-generative-drink-app)
-[AWSome Generative Drink App (Quadro branco)](https://bit.ly/cdbe-s02-wb)
+- [AWSome Generative Drink App (Github)](https://bit.ly/awsome-generative-drink-app)
+- [AWSome Generative Drink App (Quadro branco)](https://bit.ly/cdbe-s02-wb)
