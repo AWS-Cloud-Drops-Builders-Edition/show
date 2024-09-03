@@ -8,7 +8,8 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 
 #### Segunda temporada - 2024/2025
 
-* [#0: **[NA PRÁTICA] Construindo uma aplicação Serverless com IA generativa DO ZERO - Parte 1**](/episode/11) [[vídeo](https://bit.ly/cdbe-s02e02)]
+* [#0: **[NA PRÁTICA] Construindo uma aplicação Serverless com IA generativa DO ZERO - Parte 1**](/episode/11) [[vídeo](https://bit.ly/cdbe-s02e01)]
+* [#1: **[NA PRÁTICA] Construindo uma aplicação Serverless com IA generativa DO ZERO - Parte 2**](/episode/12) [[vídeo](https://bit.ly/cdbe-s02ep02)]
 
 #### Primeira temporada - 2023/2024
 
@@ -27,6 +28,9 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 ### ☕ Canecas utilizadas 
 
 #### Segunda temporada - 2024/2025
+
+* [#0: **Palla, o escolhido mexicano**](/mug/11/palla-o-escolhido-mexicano.jpeg)
+* [#1: **ROGA DX 2024**](/mug/12/rogadx.jpeg)
 
 #### Primeira temporada - 2023/2024
 

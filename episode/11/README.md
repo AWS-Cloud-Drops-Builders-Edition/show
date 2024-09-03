@@ -1,7 +1,7 @@
 # Episódio 01, Temporada 02 - [NA PRÁTICA] Construindo uma aplicação Serverless com IA generativa DO ZERO - Parte 1
 
-[![YouTube video thumbnail](./thumb.jpeg)](https://bit.ly/cdbe-s02e02)
-**[&#x25b6; Assista agora no Youtube!](https://bit.ly/cdbe-s02e02)**
+[![YouTube video thumbnail](./thumb.jpg)](https://bit.ly/cdbe-s02e01)
+**[&#x25b6; Assista agora no Youtube!](https://bit.ly/cdbe-s02e01)**
 
 Bem-vindo(a) ao primeiro episódio da segunda temporada do AWS Cloud Drops Builders Edition!
 
