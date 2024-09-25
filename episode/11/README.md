@@ -1,4 +1,4 @@
-# Episódio 01, Temporada 02 - [NA PRÁTICA] Construindo uma aplicação Serverless com IA generativa DO ZERO - Parte 1
+# Episódio 01, Temporada 02 - [NA PRÁTICA - Parte 1] Da ideia a produção com Amazon Q Developer
 
 [![YouTube video thumbnail](./thumb.jpg)](https://bit.ly/cdbe-s02e01)
 **[&#x25b6; Assista agora no Youtube!](https://bit.ly/cdbe-s02e01)**
@@ -17,7 +17,7 @@ Bóra Buildar!
 - [PartyRock](https://partyrock.aws/)
 - [AWS CDK](https://aws.amazon.com/cdk/)
 
-## 🤖 Conversando com o Amazon Q Developer
+## 🤖 Conversinha com o Amazon Q Developer
 
 #### O que pedimos?
 

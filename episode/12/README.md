@@ -1,4 +1,4 @@
-# Episódio 02, Temporada 02 - [NA PRÁTICA] Construindo uma aplicação Serverless com IA generativa DO ZERO - Parte 2
+# Episódio 02, Temporada 02 - [NA PRÁTICA - Parte 2] Arquitetura do AWSome Generative Drink App
 
 [![YouTube video thumbnail](./thumb.jpg)](https://bit.ly/cdbe-s02ep02)
 **[&#x25b6; Assista agora no Youtube!](https://bit.ly/cdbe-s02ep02)**
