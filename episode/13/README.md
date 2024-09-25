@@ -24,6 +24,7 @@ Bóra Buildar!
 
 ## Onde aprender mais
 
+- [Notebook com o código do episódio (Github)](./main.ipynb)
 - [AWSome Generative Drink App (Github)](https://bit.ly/awsome-generative-drink-app)
 - [AWSome Generative Drink App (Quadro branco)](https://bit.ly/cdbe-s02-wb)
 - [O que é engenharia de prompt](https://aws.amazon.com/pt/what-is/prompt-engineering/)
