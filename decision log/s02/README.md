@@ -56,7 +56,7 @@ Durante a fase de estudos para construir esta temporada, decidimos explorar algu
 
 - Gerenciamento de Configuração: Usa um único arquivo pyproject.toml para configuração do projeto.
 
-Builds consistentes: Garante builds consistentes entre diferentes ambientes de desenvolvimento e pipelines de implantação.
+- Builds consistentes: Garante builds consistentes entre diferentes ambientes de desenvolvimento e pipelines de implantação.
 
 ### Powertools for AWS Lambda
 
