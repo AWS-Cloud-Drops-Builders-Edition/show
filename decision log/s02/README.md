@@ -121,3 +121,64 @@ Algumas funcionalidades que destacamos como úteis, para acelerar o desenvolvime
     - Também reconhece classes começando com "Test" como classes de teste, e qualquer método nessas classes começando com "test_" como um método de teste.
 
 Essa capacidade de descoberta automática de testes economiza muito trabalho, pois você não precisa configurar explicitamente quais testes devem ser executados. Basta seguir as convenções de nomenclatura e o Pytest encontrará e executará seus testes automaticamente. Isso torna o processo de escrever e executar testes muito mais simples e produtivo, especialmente em projetos maiores com muitos testes espalhados.
+
+## 29-10-2024
+
+### Boas práticas com AWS CDK
+
+🤨 **O que?**
+
+Nome diferente da stack em um projeto AWS CDK, por desenvolvedor e por branch.
+
+🕵️ **Por que?**
+
+Nomear a stack por desenvolvedor e por branch permite que múltiplos desenvolvedores compartilhem a mesma conta de desenvolvimento e trabalhem em paralelo na mesma stack. O pipeline de CI/CD deve utilizar o seu nome único para remover qualquer chance de conflitos.
+
+### Utilização de Lambda Layers
+
+🤨 **O que?**
+
+Vamos criar e utilizar uma Lambda layer que todas as funções Lambda irão compartilhar.
+
+🕵️ **Por que?**
+
+A intenção aqui é a otimização do processo de deployment, já que todas as nossas funções requerem as mesmas dependências.
+
+Esta layer conterá todas as dependências contidas sa sessão '[tool.poetry.dependencies]' do arquivo 'pyproject.toml'.
+
+Você pode ler mais sobre Lambda Layers [aqui](https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html).
+
+### A pasta .build
+
+🤨 **O que?**
+
+Nós vamos utilizar um estágio de build como parte do processo de deployment para copiar o conteúdo das funções Lambdas para uma pasta específica dentro de '.build' e ainda definir o arquivo de dependências que será utilizado para criação da Lambda Layer.
+
+🕵️ **Por que?**
+
+Você deve fornecer uma pasta de assets quando estiver construindo uma Lambda Layer ou Lambda Function com AWS CDK. Ele remove a pasta superior e pega o conteúdo.
+
+Se fornecêssemos a pasta 'lambda' como a pasta raiz, teríamos problemas de importação ao invocar a função, já que as importações em nossa função Lambda contêm 'lambda.x.y', da mesma forma que reside no repositório.
+
+Para resolver esse problema, temos uma etapa de construção que é executada durante o processo de deployment. Ela copia a pasta 'lambda' do nível raiz para uma nova pasta de nível raiz, a '.build'.
+
+Dessa forma, quando o CDK pega o conteúdo da lambda dessa nova pasta de nível superior, ele também pega a pasta superior 'lambda' (ou qualquer outro nome que seja definido por você) e as importações permanecem válidas.
+
+### O Makefile
+
+🤨 **O que?**
+
+Vamos criar um arquivo makefile para simplificar as tarefas repetitivas no projeto AWS CDK. 
+
+🕵️ **Por que?**
+
+Criar um Makefile para projetos AWS CDK é uma boa prática que oferece vários benefícios:
+
+- Padroniza a execução de tarefas comuns no projeto.
+- Simplifica comandos complexos do CDK em targets fáceis de lembrar.
+- Automatiza tarefas repetitivas como execução de testes, lint, formatação, synth, deploy e etc....
+- Configura o ambiente de desenvolvimento de forma consistente.
+- Permite executar testes locais e verificações de qualidade antes do processo de deployment.
+- Facilita a integração com pipelines de CI/CD.
+- Serve como documentação, listando as operações disponíveis.
+- Garante compatibilidade multiplataforma, funcionando em sistemas Unix e Windows.
