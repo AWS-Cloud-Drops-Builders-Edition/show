@@ -11,7 +11,7 @@ Esta é a temporada perfeita para você que está começando com desenvolvimento
 
 Bóra Buildar!
 
-![Software Architecture](./architecture.png)
+![Software Architecture](../../images/architecture%20s02.png)
 
 ## O que mencionamos durante o episódio
 

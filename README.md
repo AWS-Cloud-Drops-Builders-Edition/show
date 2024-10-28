@@ -15,6 +15,7 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 * [#0: **[NA PRÁTICA - Parte 1] Da ideia a produção com Amazon Q Developer**](/episode/11) [[vídeo](https://bit.ly/cdbe-s02e01)]
 * [#1: **[NA PRÁTICA - Parte 2] Arquitetura do AWSome Generative Drink App**](/episode/12) [[vídeo](https://bit.ly/cdbe-s02ep02)]
 * [#2: **[NA PRÁTICA - Parte 3] Engenharia de prompt com Claude 3 e Amazon Q Developer**](/episode/13) [[vídeo](https://bit.ly/cdbe-s02e03)]
+* [#3: **[NA PRÁTICA - Parte 4] Estruturando os projetos AWS CDK e React**](/episode/14) [[vídeo](https://bit.ly/cdbe-s02e04)]
 
 
 #### Primeira temporada - 2023/2024
@@ -38,6 +39,7 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 * [#0: **Palla, o escolhido mexicano**](/mug/11/palla-o-escolhido-mexicano.jpeg)
 * [#1: **ROGA DX 2024**](/mug/12/rogadx.jpeg)
 * [#2: **Campus Party Nordeste 2024 e AWS User Group Piauí**](/mug/13/campus-party-nordeste-aws-ug-piaui.jpeg)
+* [#3: **AWS User Group Foz do Iguaçu**](/mug/14/aws-ug-foz.jpeg)
 
 #### Primeira temporada - 2023/2024
 

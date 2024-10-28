@@ -11,7 +11,7 @@ Neste episódio, vamos receber o Nelson Crepalde, Generative AI Strategist da AW
 
 Bóra Buildar!
 
-![Software Architecture](./architecture.png)
+![Software Architecture](../../images/architecture%20s02.png)
 
 ## 🤖 Conversinha com o Amazon Q Developer
 
