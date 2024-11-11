@@ -182,3 +182,37 @@ Criar um Makefile para projetos AWS CDK é uma boa prática que oferece vários 
 - Facilita a integração com pipelines de CI/CD.
 - Serve como documentação, listando as operações disponíveis.
 - Garante compatibilidade multiplataforma, funcionando em sistemas Unix e Windows.
+
+## 12-11-2024
+
+### pre-commit, formatação e análise estática de código
+
+🤨 **O que?**
+
+Nós vamos configurar algumas verificações para serem executadas automaticamente antes de cada cada commit. Para isso, vamos utilizar um framework para manter os hooks de pre-commit.
+
+Com o hook configurado, vamos utilizar três ferramentas:
+
+- black:
+    - Formatador de código Python
+Aplica um estilo consistente e opinativo. Não é configurável, visando eliminar debates sobre estilo.
+
+- flake8:
+    - Ferramenta de lint para Python
+Combina PyFlakes, pycodestyle e Ned Batchelder's McCabe script.
+Verifica erros de estilo e lógica.
+
+- isort:
+    - Utilitário para ordenar imports em arquivos Python. Organiza imports automaticamente por tipo e ordem alfabética.
+
+🕵️ **Por que?**
+
+- Detectar problemas antes que entrem em seu repositório.
+- Garantir automaticamente que todo o código atenda aos padrões estabelecidos.
+- Impedir a submissão de código problemático, como declarações de depuração, arquivos grandes ou informações sensíveis.
+- Impor consistência em toda a equipe.
+- Impor as mesmas verificações de estilo e qualidade de código para todos.
+- Eliminar debates sobre estilo, já que todos usam as mesmas ferramentas automatizadas.
+- Tornar as revisões de código mais focadas na funcionalidade do que na formatação.
+- Permitir a detecção precoce de problemas.
+- Eliminar a verificação manual de problemas comuns.
