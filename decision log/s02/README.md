@@ -189,20 +189,20 @@ Criar um Makefile para projetos AWS CDK é uma boa prática que oferece vários 
 
 🤨 **O que?**
 
-Nós vamos configurar algumas verificações para serem executadas automaticamente antes de cada cada commit. Para isso, vamos utilizar um framework para manter os hooks de pre-commit.
+Nós vamos configurar algumas verificações para serem executadas automaticamente antes de cada cada commit. Para isso, vamos utilizar um [framework](https://github.com/pre-commit/pre-commit) para manter os hooks de pre-commit.
 
 Com o hook configurado, vamos utilizar três ferramentas:
 
-- black:
+- [black](https://github.com/psf/black):
     - Formatador de código Python
 Aplica um estilo consistente e opinativo. Não é configurável, visando eliminar debates sobre estilo.
 
-- flake8:
+- [flake8](https://github.com/pycqa/flake8):
     - Ferramenta de lint para Python
 Combina PyFlakes, pycodestyle e Ned Batchelder's McCabe script.
 Verifica erros de estilo e lógica.
 
-- isort:
+- [isort](https://github.com/pycqa/isort):
     - Utilitário para ordenar imports em arquivos Python. Organiza imports automaticamente por tipo e ordem alfabética.
 
 🕵️ **Por que?**
