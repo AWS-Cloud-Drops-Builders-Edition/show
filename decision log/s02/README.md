@@ -216,3 +216,50 @@ Verifica erros de estilo e lógica.
 - Tornar as revisões de código mais focadas na funcionalidade do que na formatação.
 - Permitir a detecção precoce de problemas.
 - Eliminar a verificação manual de problemas comuns.
+
+## 26-11-2024
+
+### Estrutura do projeto de backend (AWS CDK)
+
+🤨 **O que?**
+
+Escolhemos uma estrutura de projeto opinativa com uma pasta de infraestrutura (baseada em CDK), uma pasta de testes e uma pasta para os domínios (caso haja mais de um, as subpastas serão responsáveis separá-los).
+
+Estrutura proposta (considere que drink é o nome do domínio)
+
+infrastructure/
+└── drink/
+
+service/
+└── drink/
+    ├── domain_logic/
+    ├── handlers/
+    ├── integration/
+    └── models/
+
+tests/
+└── drink/
+    ├── unit/
+    ├── integration/
+    └── e2e/
+
+🕵️ **Por que?**
+
+Aqui, como em várias outras práticas, não há certo ou errado. Outras estruturas podem fazer mais sentido para você. Do nosso lado, vimos muita vantagem em separar o código de infraestrutura do domínio e propor uma separação por domínio (por mais que o projeto de exemplo tenha apenas um domínio).
+
+### Separação de responsabilidades no código da função Lambda
+
+🤨 **O que?**
+
+Deibaixo da pasta service/drink há uma série de subpastas (separadas por domínio).
+
+Estas pastas representam diferentes "camadas".
+
+- *domain_logic*: é a lógica do negócio
+- *handlers*: handlers das funções lambda
+- *integration*: código que acessa APIs (serviços da AWS e APIs externas ao serviço)
+- *models*: schemas do pydantic.
+
+🕵️ Por que?
+
+Esta estrutura é totalmente opinativa e visa principalmente separar o código dos manipuladores de função (handlers) da lógica de domínio e sugerir a criação de códigos mais facilmente testáveis.
