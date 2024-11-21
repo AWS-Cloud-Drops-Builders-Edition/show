@@ -17,9 +17,9 @@ Bóra Buildar!
 
 ## O que mencionamos durante o episódio
 
-[Log de decisões de projeto](../../decision%20log/s02/README.md)
-[Technology Radar | Thoughtworks](https://bit.ly/radar-2024)
-[AWS Community Day Brasil 2024](https://awscommunityday.com.br/)
+- [Log de decisões de projeto](../../decision%20log/s02/README.md)
+- [Technology Radar | Thoughtworks](https://bit.ly/radar-2024)
+- [AWS Community Day Brasil 2024](https://awscommunityday.com.br/)
 
 ## Onde aprender mais
 
