@@ -43,7 +43,7 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 * [#3: **Campus Party Nordeste 2024 e AWS User Group Piauí**](/mug/13/campus-party-nordeste-aws-ug-piaui.jpeg)
 * [#4: **AWS User Group Foz do Iguaçu**](/mug/14/aws-ug-foz.jpeg)
 * [#5: **Lumos**](/mug/15/edimburgo.jpeg)
-* [#6: **Lumos**](/mug/16/awscommunitydaybrasil2024.jpeg)
+* [#6: **AWS Community Day 2024**](/mug/16/awscommunitydaybrasil2024.jpeg)
 
 #### Primeira temporada - 2023/2024
 
