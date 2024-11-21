@@ -245,21 +245,37 @@ tests/
 
 🕵️ **Por que?**
 
-Aqui, como em várias outras práticas, não há certo ou errado. Outras estruturas podem fazer mais sentido para você. Do nosso lado, vimos muita vantagem em separar o código de infraestrutura do domínio e propor uma separação por domínio (por mais que o projeto de exemplo tenha apenas um domínio).
+Aqui, como em várias outras práticas aplicadas neste projeto, não há certo ou errado. Outras estruturas podem fazer mais sentido para você. Do nosso lado, vemos vantagem em separar o código de infraestrutura do código de domínio, pois isso adiciona clareza de propósito.
 
-### Separação de responsabilidades no código da função Lambda
+A separação por domínios (caso haja mais de um no mesmo projeto) também visa facilitar o entendimento do projeto. 
+
+### Aplicando o Princípio da Responsabilidade Única
 
 🤨 **O que?**
 
 Deibaixo da pasta service/drink há uma série de subpastas (separadas por domínio).
 
-Estas pastas representam diferentes "camadas".
+Estas pastas representam diferentes "camadas", que propõem uma separação de responsabilidades, afim de evitar a criação de componentes com mais de uma responsabilidade.
 
 - *domain_logic*: é a lógica do negócio
 - *handlers*: handlers das funções lambda
 - *integration*: código que acessa APIs (serviços da AWS e APIs externas ao serviço)
-- *models*: schemas do pydantic.
+- *models*: schemas/modelos do pydantic.
 
 🕵️ Por que?
 
-Esta estrutura é totalmente opinativa e visa principalmente separar o código dos manipuladores de função (handlers) da lógica de domínio e sugerir a criação de códigos mais facilmente testáveis.
+Esta estrutura é totalmente opinativa e visa principalmente separar o código dos manipuladores de função (handlers) da lógica de domínio e sugerir a criação de códigos menos acoplados e mais testáveis.
+
+Principais vantagens:
+
+- Manutenibilidade: Componentes com responsabilidade única são mais fáceis de entender, modificar e manter. Isso reduz o risco de introduzir bugs ao fazer alterações e facilita a evolução do código ao longo do tempo.
+
+- Reutilização de código: Componentes bem definidos e com responsabilidade única têm maior potencial de reutilização em diferentes partes do sistema ou até mesmo em outros projetos, aumentando a eficiência do desenvolvimento.
+
+- Testabilidade: Componentes menores e mais focadas são mais fáceis de testar de forma isolada. Isso permite a criação de testes de unidade mais eficazes.
+
+Possíveis desafios:
+
+- Complexidade excessiva (over engineering): Unidades muito pequenas podem levar a um aumento na complexidade.
+
+- Definição de limites: Determinar onde exatamente uma responsabilidade termina e outra começa pode ser subjetivo e desafiador, especialmente em sistemas complexos.
