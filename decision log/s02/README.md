@@ -185,7 +185,7 @@ drink/
  └── models/
 ```
 
-Para resolver esse problema, temos uma etapa de construção que é executada durante o processo de deployment. Ela copia recursivamente a pasta ```service``` uma nova pasta de nível raiz chamada ```lambda```, dentro do diretório ```.build```.
+Para resolver esse problema, temos uma etapa de construção que é executada durante o processo de deployment. Ela copia recursivamente a pasta ```service``` para uma nova pasta de nível raiz chamada ```lambda```, dentro do diretório ```.build```.
 
 Dessa forma, quando o AWS CDK pega o conteúdo da função lambda dessa nova pasta de nível superior, ele também pega a pasta ```service``` (ou qualquer outro nome que seja definido por você) e todas as importações permanecem válidas.
 
