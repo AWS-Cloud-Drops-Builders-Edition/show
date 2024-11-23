@@ -104,7 +104,7 @@ O [pytest](https://docs.pytest.org/en/stable/) é amplamente utilizado na comuni
 
 🕵️ **Por que?**
 
-O Pydantic também foi uma escolha pragmática, pois ele se tornou uma escolha popular para escrever testes em Python devido à sua facilidade de uso, recursos abrangentes e suporte da comunidade.
+O Pytest também foi uma escolha pragmática, pois ele se tornou uma escolha popular para escrever testes em Python devido à sua facilidade de uso, recursos abrangentes e suporte da comunidade.
 
 Algumas funcionalidades que destacamos como úteis, para acelerar o desenvolvimento:
 
@@ -120,7 +120,7 @@ Algumas funcionalidades que destacamos como úteis, para acelerar o desenvolvime
 
     - Também reconhece classes começando com "Test" como classes de teste, e qualquer método nessas classes começando com "test_" como um método de teste.
 
-Essa capacidade de descoberta automática de testes economiza muito trabalho, pois você não precisa configurar explicitamente quais testes devem ser executados. Basta seguir as convenções de nomenclatura e o Pytest encontrará e executará seus testes automaticamente. Isso torna o processo de escrever e executar testes muito mais simples e produtivo, especialmente em projetos maiores com muitos testes espalhados.
+Essa capacidade de descoberta automática de testes economiza algum trabalho, pois você não precisa configurar explicitamente quais testes devem ser executados. Basta seguir as convenções de nomenclatura e o Pytest encontrará e executará seus testes automaticamente. Isso torna o processo de escrever e executar testes muito mais simples e produtivo, especialmente em projetos maiores com muitos testes espalhados.
 
 ## 29-10-2024
 
@@ -156,13 +156,38 @@ Nós vamos utilizar um estágio de build como parte do processo de deployment pa
 
 🕵️ **Por que?**
 
-Você deve fornecer uma pasta de assets quando estiver construindo uma Lambda Layer ou Lambda Function com AWS CDK. Ele remove a pasta superior e pega o conteúdo.
+Você deve fornecer uma pasta de assets quando estiver construindo uma Lambda Function com AWS CDK, que desconsidera a pasta informada e pega apenas o conteúdo abaixo dela para levar para dentro da função.
 
-Se fornecêssemos a pasta 'lambda' como a pasta raiz, teríamos problemas de importação ao invocar a função, já que as importações em nossa função Lambda contêm 'lambda.x.y', da mesma forma que reside no repositório.
+Desta forma, a proposta é mover o código das funções lambda para uma pasta centralizada de maneira a não quebrar as importações. Digamos que seu código está organizado assim (vide estrutura do projeto):
 
-Para resolver esse problema, temos uma etapa de construção que é executada durante o processo de deployment. Ela copia a pasta 'lambda' do nível raiz para uma nova pasta de nível raiz, a '.build'.
+```
+service/
+└── drink/
+    ├── domain_logic/
+    ├── handlers/
+    ├── integration/
+    └── models/
+```
 
-Dessa forma, quando o CDK pega o conteúdo da lambda dessa nova pasta de nível superior, ele também pega a pasta superior 'lambda' (ou qualquer outro nome que seja definido por você) e as importações permanecem válidas.
+Ao importar o schema `DrinkRequest` da pasta models, o import seria algo como:
+
+```
+from service.drink.models import DrinkRequest 
+```
+
+Se fornecêssemos a pasta ```service``` como a pasta raiz, teríamos problemas de importação ao importar o schema, já que as importações contêm ```service.drink.models```, mas o que estaria dentro da função seria ```drink.models``` (não existiria a pasta ```service```).
+
+```
+drink/
+ ├── domain_logic/
+ ├── handlers/
+ ├── integration/
+ └── models/
+```
+
+Para resolver esse problema, temos uma etapa de construção que é executada durante o processo de deployment. Ela copia recursivamente a pasta ```service``` uma nova pasta de nível raiz chamada ```lambda```, dentro do diretório ```.build```.
+
+Dessa forma, quando o AWS CDK pega o conteúdo da função lambda dessa nova pasta de nível superior, ele também pega a pasta ```service``` (ou qualquer outro nome que seja definido por você) e todas as importações permanecem válidas.
 
 ### O Makefile
 
@@ -227,6 +252,7 @@ Escolhemos uma estrutura de projeto opinativa com uma pasta de infraestrutura (b
 
 Estrutura proposta (considere que drink é o nome do domínio)
 
+```
 infrastructure/
 └── drink/
 
@@ -242,6 +268,7 @@ tests/
     ├── unit/
     ├── integration/
     └── e2e/
+```
 
 🕵️ **Por que?**
 
