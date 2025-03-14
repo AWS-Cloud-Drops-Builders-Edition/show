@@ -18,7 +18,7 @@ Nós usamos o Amazon Q Developer para nos ajudar a tomar esta decisão. Você po
 
 - Nós escolhemos AWS CDK porque gostaríamos de usar Python de ponta a ponta no projeto backend. 
 
-- Esta é uma decisão tem mais relação com as características da sua organização do que com qualquer outro aspecto técnico. 
+- Esta é uma decisão que tem mais relação com as características da sua organização do que com qualquer outro aspecto técnico. 
 
 ### React
 
@@ -42,9 +42,9 @@ Aqui vale notar que nós não somos desenvolvedores do Frontend. Sendo assim, no
 
 🕵️ **Por que?**
 
-Ao longo tempo nós temos usando pip em nossos projetos e inclusive usamos pip no projeto que originou esta demo e rodou no HackTown 2024.
+Ao longo do tempo nós temos usando pip em nossos projetos e inclusive usamos pip no projeto que originou esta demo e rodou no HackTown 2024.
 
-Durante a fase de estudos para construir esta temporada, decidimos explorar algumas alternativas e chegamos no Poetry. Para nós, brilham a configuração em um único arquivo e o maior determinismo no gerenciamento das dependências.
+Durante a fase de estudos para construir esta temporada, decidimos explorar algumas alternativas e chegamos ao Poetry. Para nós, brilham a configuração em um único arquivo e o maior determinismo no gerenciamento das dependências.
 
 - Gerenciamento de Dependências: O Poetry simplifica o processo de gerenciar dependências do projeto, permitindo declarar bibliotecas necessárias em um arquivo pyproject.toml e instalando, atualizando e resolvendo essas dependências.
 
@@ -280,9 +280,9 @@ A separação por domínios (caso haja mais de um no mesmo projeto) também visa
 
 🤨 **O que?**
 
-Deibaixo da pasta service/drink há uma série de subpastas (separadas por domínio).
+De baixo da pasta service/drink há uma série de subpastas (separadas por domínio).
 
-Estas pastas representam diferentes "camadas", que propõem uma separação de responsabilidades, afim de evitar a criação de componentes com mais de uma responsabilidade.
+Estas pastas representam diferentes "camadas", que propõem uma separação de responsabilidades, a fim de evitar a criação de componentes com mais de uma responsabilidade.
 
 - *domain_logic*: é a lógica do negócio
 - *handlers*: handlers das funções lambda
@@ -299,7 +299,7 @@ Principais vantagens:
 
 - Reutilização de código: Componentes bem definidos e com responsabilidade única têm maior potencial de reutilização em diferentes partes do sistema ou até mesmo em outros projetos, aumentando a eficiência do desenvolvimento.
 
-- Testabilidade: Componentes menores e mais focadas são mais fáceis de testar de forma isolada. Isso permite a criação de testes de unidade mais eficazes.
+- Testabilidade: Componentes menores e mais focados são mais fáceis de testar de forma isolada. Isso permite a criação de testes de unidade mais eficazes.
 
 Possíveis desafios:
 
