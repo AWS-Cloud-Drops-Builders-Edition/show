@@ -306,3 +306,25 @@ Possíveis desafios:
 - Complexidade excessiva (over engineering): Unidades muito pequenas podem levar a um aumento na complexidade.
 
 - Definição de limites: Determinar onde exatamente uma responsabilidade termina e outra começa pode ser subjetivo e desafiador, especialmente em sistemas complexos.
+
+## 14-03-2025
+
+### Metodologia de testes
+
+🤨 **O que?**
+
+Temos testes de unidade, testes de infraestrutura, testes de integração e testes ponta a ponta (E2E).
+
+🕵️ **Por que?**
+
+Cada tipo de teste tem seu uso:
+
+- Testes de unidade verificam pequenas funções e principalmente validações de schemas.
+
+- Testes de infraestrutura são executados antes da implantação; eles verificam se recursos críticos existem e não foram excluídos do template do CloudFormation (que é o resultado do deploy do AWS CDK) por erro ou bug.
+
+- Testes de integração ocorrem após a implantação e geram um evento simulado (mocked events), chamam o manipulador de função na IDE e permitem depurar as funções com pontos de interrupção. 
+
+- Chamamos serviços AWS reais e podemos escolher o que simular para simular falhas e quais recursos chamar diretamente.
+
+- Testes E2E - acionam os recursos que foram implantados na AWS.
