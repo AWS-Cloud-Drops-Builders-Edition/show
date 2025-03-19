@@ -1,6 +1,6 @@
-# Episódio 07, Temporada 02 - INFRAESTRUTURA COMO CÓDIGO COM AMAZON Q DEVELOPER CLI 🚀
+# Episódio 08, Temporada 02 - INFRAESTRUTURA COMO CÓDIGO COM AMAZON Q DEVELOPER CLI 🚀
 
-[![YouTube video thumbnail](./thumb.jpg)](https://bit.ly/cdbe-s02e08)
+[![YouTube video thumbnail](./thumb.png)](https://bit.ly/cdbe-s02e08)
 **[&#x25b6; Assista agora no Youtube!](https://bit.ly/cdbe-s02e08)**
 
 Bem-vindo(a) a mais um episódio da segunda temporada do AWS Cloud Drops Builders Edition. Nesta temporada estamos construindo uma aplicação Serverless completa com IA generativa DO ZERO. 
