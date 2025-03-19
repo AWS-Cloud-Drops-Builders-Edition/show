@@ -7,6 +7,7 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 ### 📜 Histórico de decisões de projeto
 
 * [S02 - AWSome Generative Drink App](/decision%20log/s02/README.md)
+* [S02 - AWSome Generative Drink App - Arquitetura](/images/architecture%20s02.png)
 
 ### 🎙️ Lista de episódios 
 
@@ -18,6 +19,7 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 * [#4: **[NA PRÁTICA - Parte 4] Estruturando os projetos AWS CDK e React**](/episode/14) [[vídeo](https://bit.ly/cdbe-s02e04)]
 * [#5: **[NA PRÁTICA - Parte 5] Boas práticas em projetos AWS CDK**](/episode/15) [[vídeo](https://bit.ly/cdbe-s02e05)]
 * [#6: **[NA PRÁTICA - Parte 6] Não seja COMPLACENTE com código gerado por IA**](/episode/16) [[vídeo](https://bit.ly/cdbe-s02e06)]
+* [#7: **[NA PRÁTICA - Parte 7] Como aplicar o princípio da responsabilidade única (SRP) com AWS Lambda**](/episode/17) [[vídeo](https://bit.ly/cdbe-s02e07)]
 
 
 #### Primeira temporada - 2023/2024
