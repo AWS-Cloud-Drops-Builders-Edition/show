@@ -1,11 +1,11 @@
-# Episódio 07, Temporada 02 - CODIFICANDO COM AMAZON Q DEVELOPER CLI
+# Episódio 07, Temporada 02 - INFRAESTRUTURA COMO CÓDIGO COM AMAZON Q DEVELOPER CLI 🚀
 
 [![YouTube video thumbnail](./thumb.jpg)](https://bit.ly/cdbe-s02e08)
 **[&#x25b6; Assista agora no Youtube!](https://bit.ly/cdbe-s02e08)**
 
 Bem-vindo(a) a mais um episódio da segunda temporada do AWS Cloud Drops Builders Edition. Nesta temporada estamos construindo uma aplicação Serverless completa com IA generativa DO ZERO. 
 
-Neste episódio, vamos continuar construindo a aplicação e desta vez vamos utilizar o Amazon Q Developer CLI para nos apoiar durante o processo de desenvolvimento. Então se prepare para o VIBE CODING! 
+Neste episódio, vamos continuar construindo a aplicação e desta vez vamos utilizar o Amazon Q Developer CLI para nos apoiar durante o processo de desenvolvimento e, entre outras coisas, gerar uma stack completa do AWS CDK. Prepare-se para o VIBE CODING! 
 
 Bóra Buildar!
 
