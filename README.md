@@ -20,7 +20,7 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 * [#5: **[NA PRÁTICA - Parte 5] Boas práticas em projetos AWS CDK**](/episode/15) [[vídeo](https://bit.ly/cdbe-s02e05)]
 * [#6: **[NA PRÁTICA - Parte 6] Não seja COMPLACENTE com código gerado por IA**](/episode/16) [[vídeo](https://bit.ly/cdbe-s02e06)]
 * [#7: **[NA PRÁTICA - Parte 7] Como aplicar o princípio da responsabilidade única (SRP) com AWS Lambda**](/episode/17) [[vídeo](https://bit.ly/cdbe-s02e07)]
-
+* [#8: **CODIFICANDO COM AMAZON Q DEVELOPER CLI**](/episode/18) [[vídeo](https://bit.ly/cdbe-s02e08)]
 
 #### Primeira temporada - 2023/2024
 
