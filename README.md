@@ -4,7 +4,7 @@
 
 Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*, um programa bisemanal, leve e descontraído para Builders que sujam as mãos utilizando AWS. O programa conta com a apresentação dos AWS Developers Advocates LATAM [Ana Cunha](https://www.linkedin.com/in/analuizacunha/) e [Marcelo Palladino](https://www.linkedin.com/in/mfpalladino/), além de contar com participações de especialistas da AWS e da comunidade AWS.
 
-### 📜 Histórico de decisões de projeto
+### 📜 Histórico de decisões de projeto e arquitetura da temporada 2 
 
 * [S02 - AWSome Generative Drink App](/decision%20log/s02/README.md)
 * [S02 - AWSome Generative Drink App - Arquitetura](/images/architecture%20s02.png)

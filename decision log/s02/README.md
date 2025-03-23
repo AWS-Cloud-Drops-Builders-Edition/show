@@ -89,7 +89,7 @@ Com o log estruturado do PowerTools for AWS Lambda temos algo muito mais rico e 
 {
   "level": "ERROR",
   "location": "lambda_function.lambda_handler:11",
-  "message": "Erro ao processar o pedido 123",
+  "message": "Erro ao processar o drink 123",
   "service": "order-service",
   "timestamp": "2025-03-23T19:30:45.123Z",
   "xray_trace_id": "1-65fd1234-abcdef1234567890abcdef12",
