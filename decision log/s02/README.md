@@ -72,6 +72,54 @@ Melhores práticas para todos. Este é o lema do Powertools for AWS Lambda e foi
 
 - Logging: Permite logging estruturado com detalhes de contexto do Lambda.
 
+Sem os logs estruturados, o log de uma exceção vai se parecer com isso aqui:
+
+```
+[ERROR] ValueError: Não foi possível processar o drink
+Traceback (most recent call last):
+  File "/var/task/lambda_function.py", line 9, in lambda_handler
+    raise ValueError("Não foi possível processar o drink")
+```
+
+Este formato dificulta a análise e filtragem de logs, especialmente quando você precisa correlacionar eventos ou depurar problemas em produção.
+
+Com o log estruturado do PowerTools for AWS Lambda temos algo muito mais rico e útil:
+
+```json
+{
+  "level": "ERROR",
+  "location": "lambda_function.lambda_handler:11",
+  "message": "Erro ao processar o pedido 123",
+  "service": "order-service",
+  "timestamp": "2025-03-23T19:30:45.123Z",
+  "xray_trace_id": "1-65fd1234-abcdef1234567890abcdef12",
+  "exception": "Traceback (most recent call last):\n  File \"/var/task/lambda_function.py\", line 9, in lambda_handler\n    raise ValueError(\"Não foi possível salvar o drink\")\nValueError: Não foi possível salvar o drink",
+  "lambda": {
+    "function_name": "meu-lambda",
+    "function_memory_size": "128",
+    "function_arn": "arn:aws:lambda:us-east-1:123456789012:function:meu-lambda",
+    "request_id": "a1b2c3d4-5678-90ab-cdef-EXAMPLE11111"
+  },
+  "cold_start": true,
+  "event": {
+    "drink_id": "123"
+  }
+}
+```
+
+Os benefícios dos logs estruturados incluem:
+
+1. **Pesquisa e filtragem avançadas**: Você pode facilmente filtrar logs por nível, serviço, ID de solicitação ou qualquer outro campo personalizado.
+
+2. **Correlação de eventos**: O ID de rastreamento do X-Ray e o ID de solicitação permitem correlacionar eventos em diferentes serviços.
+
+3. **Contexto enriquecido**: Informações como cold start, detalhes da função Lambda e dados do evento fornecem contexto valioso para depuração.
+
+4. **Integração com ferramentas de observabilidade**: Logs estruturados em formato JSON podem ser facilmente ingeridos por ferramentas como CloudWatch Logs Insights, Elasticsearch ou soluções de terceiros.
+
+5. **Análise automatizada**: Facilita a criação de alertas baseados em padrões específicos ou anomalias nos logs.
+
+
 - Métricas: Permite a criação de métricas personalizadas usando o CloudWatch Embedded Metric Format (EMF).
 
 Recursos adicionais (dependendo da linguagem):
