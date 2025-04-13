@@ -21,6 +21,7 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 * [#6: **[NA PRÁTICA - Parte 6] Não seja COMPLACENTE com código gerado por IA**](/episode/16) [[vídeo](https://bit.ly/cdbe-s02e06)]
 * [#7: **[NA PRÁTICA - Parte 7] Como aplicar o princípio da responsabilidade única (SRP) com AWS Lambda**](/episode/17) [[vídeo](https://bit.ly/cdbe-s02e07)]
 * [#8: **INFRAESTRUTURA COMO CÓDIGO COM AMAZON Q DEVELOPER CLI 🚀**](/episode/18) [[vídeo](https://bit.ly/cdbe-s02e08)]
+* [#9: **PIRÂMIDE DE TESTES COM AMAZON Q DEVELOPER CLI**](/episode/19) [[vídeo](https://bit.ly/cdbe-s02e09)]
 
 #### Primeira temporada - 2023/2024
 
