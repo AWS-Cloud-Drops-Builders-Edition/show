@@ -23,6 +23,9 @@ Esta é o repositório principal do *AWS Cloud Drops Builders Edition - Brasil*,
 * [#8: **INFRAESTRUTURA COMO CÓDIGO COM AMAZON Q DEVELOPER CLI 🚀**](/episode/18) [[vídeo](https://bit.ly/cdbe-s02e08)]
 * [#9: **PIRÂMIDE DE TESTES COM AMAZON Q DEVELOPER CLI**](/episode/19) [[vídeo](https://bit.ly/cdbe-s02e09)]
 * [#10: **MCP (Model Context Protocol) NA PRÁTICA 🚀**](/episode/20) [[vídeo](https://bit.ly/cdbe-s02e10)]
+* [#11: **CRIANDO TESTES DE UNIDADE COM AMAZON Q DEVELOPER CLI**](/episode/21) [[vídeo](https://bit.ly/cdbe-s02e11)]
+* [#12: **TESTES DE INTEGRAÇÃO COM AMAZON Q DEVELOPER CLI**](/episode/22) [[vídeo](https://bit.ly/cdbe-s02e12)]
+* [#13: **AMAZON Q DEVELOPER CLI ALÉM DO CÓDIGO COM O AWS SERVERLESS HERO EVANDRO PIRES**](/episode/23) [[vídeo](https://bit.ly/cdbe-s02e13)]
 
 #### Primeira temporada - 2023/2024
 
